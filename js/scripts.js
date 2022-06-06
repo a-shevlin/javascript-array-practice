@@ -31,7 +31,7 @@ const originalArray = [1,2,3,4,5];
 let cloneArray = originalArray.slice(3);
 cloneArray.push(6);
 /* declaring a new array using the same elements but changing the copy use .slice() otherwise you change both arrays */
-
+/* use this instead of creating a pointer "let cloneArray = originalArray" */
 
 console.log(months);
 console.log(modifiedMonths);
